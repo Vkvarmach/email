@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title><br>m_riders_Email</br></title>
+   
+
+</head>
+<body>
+
+    <h1>Manage Riders</h1>
+    <p>Send an Email to Rider</p>
+    <form method="POST" class="contact-form">
+        <label for="Email">Email Id</label><br>
+        <input class="email" type="email" placeholder="Email" required /><br>
+        <label for="Subject">Subject</label><br>
+        <textarea
+        class="Subject"
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="message"
+        required
+        ></textarea> <br/>
+        <input type="text" id="sub">
+        <button type="submit" >Submit</button>
+      </form>
+      
+
+ <div class="infoResults"></div>
+ <script src="https://smtpjs.com/v3/smtp.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js"></script>
+
+ <script src="app.js"></script>
+
+    </body>
+</html>
